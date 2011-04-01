@@ -2,7 +2,7 @@ Persival
 ========
 
 Persival can persist the values users entered in a form, 
-to make them *inadvertent tab closing* & crash resilent.
+to make them *inadvertent tab closing* & crash resilient.
 
 Usage
 -----
