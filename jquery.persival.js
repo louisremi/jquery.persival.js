@@ -1,5 +1,5 @@
 /* Persival can persist the values users entered in a form,
- * to make them crash and "inadvertent tab closing" resilent.
+ * to make them "inadvertent tab closing" & crash resilent.
  * 
  * Dependencies:
  * - jquery: http://github.com/jquery/jquery
