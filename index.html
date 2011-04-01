@@ -1,0 +1,489 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/style.css?v=2">
+	<style>
+		body {
+			padding: 1em;
+		}
+		h3 {
+			font-size: 1.4em;
+		}
+		table {
+			border-collapse: separate;
+			border-spacing: 5px;
+		}
+		b {
+			font-weight: bold;
+		}
+		body, select, input, textarea {
+			color: #000;
+		}
+		td {
+			padding: 5px;
+		}
+		p {
+			margin: 13px 0;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<header>
+
+		</header>
+
+		<div id="main" role="main">
+			<h3>Step 2 of 3 - give information</h3>
+
+<p>
+  If you've tried a few searches and your bug really isn't in 
+  there, tell us all about it.
+</p>
+
+<form method="post" action="#">
+  <input name="format" value="guided" type="hidden">
+  <input name="assigned_to" value="" type="hidden">
+  <input name="priority" value="--" type="hidden">
+
+  <input name="version" value="unspecified" type="hidden">
+  <input name="token" value="xAqRxmtju0" type="hidden">
+
+<table valign="top" border="0" cellpadding="5" cellspacing="5">
+
+  <tbody><tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+      <b>Product</b>
+    </td>
+    <td valign="top">
+
+      <input name="product" value="Firefox" type="hidden">Firefox
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">
+      <b>Component</b>
+    </td>
+    <td valign="top">
+
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td valign="top">
+            <select name="component" id="component" size="5">
+                
+                <option value="Account Manager">Account Manager
+                </option>
+                <option value="Bookmarks &amp; History">Bookmarks &amp; History
+                </option>
+                <option value="Build Config">Build Config
+                </option>
+
+                <option value="Developer Tools">Developer Tools
+                </option>
+                <option value="Disability Access">Disability Access
+                </option>
+                <option value="Extension Compatibility">Extension Compatibility
+                </option>
+                <option value="File Handling">File Handling
+                </option>
+                <option value="General" selected="selected">General
+                </option>
+                <option value="Help Documentation">Help Documentation
+                </option>
+
+                <option value="Installer">Installer
+                </option>
+                <option value="Keyboard Navigation">Keyboard Navigation
+                </option>
+                <option value="Location Bar">Location Bar
+                </option>
+                <option value="Menus">Menus
+                </option>
+                <option value="Microsummaries">Microsummaries
+                </option>
+                <option value="Migration">Migration
+                </option>
+
+                <option value="Page Info">Page Info
+                </option>
+                <option value="Panorama">Panorama
+                </option>
+                <option value="Phishing Protection">Phishing Protection
+                </option>
+                <option value="Preferences">Preferences
+                </option>
+                <option value="Private Browsing">Private Browsing
+                </option>
+                <option value="RSS Discovery and Preview">RSS Discovery and Preview
+                </option>
+
+                <option value="Search">Search
+                </option>
+                <option value="Security">Security
+                </option>
+                <option value="Session Restore">Session Restore
+                </option>
+                <option value="Shell Integration">Shell Integration
+                </option>
+                <option value="Tabbed Browser">Tabbed Browser
+                </option>
+                <option value="Theme">Theme
+                </option>
+
+                <option value="Toolbars">Toolbars
+                </option>
+            </select>
+          </td>
+          <td valign="top" width="100%">
+              <div id="description" style="color: green; margin-left: 10px; height: 5em; overflow: auto;">For bugs in Firefox which do not fit into other more specific Firefox components</div>
+          </td>
+        </tr>
+      </tbody></table>
+
+      
+      <p>
+        The area where the problem occurs.
+        To pick the right component, you could use the same one as
+        similar bugs you found in your search, or read the full list of
+        <a target="_blank" href="describecomponents.cgi?product=Firefox">component
+        descriptions</a> (opens in new window) if you need more help.
+      </p>
+    </td>
+  </tr>
+
+  
+
+  <tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+
+      <b>Hardware Platform</b>
+    </td>
+    <td valign="top">
+    	<select name="rep_platform">
+	      <option value="x86" selected="selected">x86</option>
+	      <option value="x86_64">x86_64</option>
+	      <option value="PowerPC">PowerPC</option>
+	      <option value="All">All</option>
+	      <option value="Other">Other</option>
+  		</select>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td align="right" valign="top">
+      <b>Operating System</b>
+
+    </td>
+    <td valign="top"><select name="op_sys">
+      <option value="Linux" selected="selected">Linux      </option>
+      <option value="Windows 2000">Windows 2000      </option>
+      <option value="Windows XP">Windows XP      </option>
+      <option value="Windows Vista">Windows Vista      </option>
+      <option value="Windows 7">Windows 7      </option>
+
+      <option value="Mac OS X">Mac OS X      </option>
+      <option value="All">All      </option>
+      <option value="Other">Other      </option>
+  </select>
+    </td>
+  </tr>
+
+  
+  
+
+  <tr bgcolor="#FFFFCC">
+
+    <td align="right" valign="top">
+      <b>Build Identifier</b>
+    </td>
+    <td valign="top">
+      <input size="80" name="buildid" value="Mozilla/5.0 (X11; Linux i686; rv:2.0) Gecko/20100101 Firefox/4.0" type="text">
+      <p>
+        This should identify the exact version of the product you were using.  
+        If the above field is blank or you know it is incorrect, copy the 
+        version text from the product's Help | 
+        About menu (for browsers this will begin with "Mozilla/5.0...").  
+        If the product won't start, instead paste the complete URL you downloaded 
+        it from.
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">
+      <b>URL</b>
+    </td>
+    <td valign="top">
+      <input size="80" name="bug_file_loc" value="http://" type="text">
+      <p>
+
+        URL that demonstrates the problem you are seeing (optional).<br>
+        <b>IMPORTANT</b>: if the problem is with a broken web page, you need
+        to report it
+        <a href="https://bugzilla.mozilla.org/page.cgi?id=broken-website.html">a different way</a>.
+      </p>
+   </td>
+  </tr>
+
+  <tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+
+      <b>Summary</b>
+    </td>
+    <td valign="top">
+      <input size="80" name="short_desc" id="short_desc" maxlength="255" spellcheck="true" type="text">
+      <p>
+        A sentence which summarises the problem.
+        Please be descriptive and use lots of keywords.
+      </p>
+      <p>
+        <tt>
+
+          <font color="#990000">Bad example</font>: mail crashed
+        </tt>
+        <br>
+        <tt>
+          <font color="#009900">Good example</font>:
+          crash if I close the mail window while checking for new POP mail
+        </tt>
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">
+      <b>Details</b>
+    </td>
+    <td valign="top"><textarea name="comment" rows="6" cols="80"></textarea>
+      <p>
+        Expand on the Summary. Please be
+        as specific as possible about what is wrong.
+      </p>
+
+      <p>
+        <tt>
+          <font color="#990000">Bad example</font>: Mozilla crashed.
+          You suck!
+        </tt>
+        <br>
+        <tt>
+          <font color="#009900">Good example</font>: After a crash which
+          happened when I was sorting in the Bookmark Manager,<br> all of my
+          top-level bookmark folders beginning with the letters Q to Z are 
+          no longer present.
+        </tt>
+
+      </p>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+      <b>Reproducibility</b>
+    </td>
+    <td valign="top">
+
+      <select name="reproducible">
+        <option name="AlwaysReproducible" value="Always">
+          Happens every time.
+        </option>
+        <option name="Sometimes" value="Sometimes">
+          Happens sometimes, but not always.
+        </option>
+        <option name="DidntTry" value="Didn't try">
+          Haven't tried to reproduce it.
+        </option>
+
+        <option name="NotReproducible" value="Couldn't Reproduce">
+          Tried, but couldn't reproduce it.
+        </option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">
+      <b>Steps to Reproduce</b>
+
+    </td>
+    <td valign="top"><textarea name="reproduce_steps" rows="4" cols="80">1.
+2.
+3.</textarea>
+      <p>
+        Describe how to reproduce the problem, step by
+        step. Include any special setup steps.
+      </p>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFCC">
+
+    <td align="right" valign="top">
+      <b>Actual Results</b>
+    </td>
+    <td valign="top"><textarea name="actual_results" rows="4" cols="80"></textarea>
+      <p>
+        What happened after you performed the steps above?
+      </p>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td align="right" valign="top">
+      <b>Expected Results</b>
+    </td>
+    <td valign="top"><textarea name="expected_results" rows="4" cols="80"></textarea>
+      <p>
+
+        What should the software have done instead?
+      </p>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+      <b>Additional Information</b>
+    </td>
+
+    <td valign="top"><textarea name="additional_info" rows="8" cols="80"></textarea>
+      <p>
+        Add any additional information you feel may be
+        relevant to this bug, such as the <b>theme</b> you were
+        using (does the bug still occur
+        with the default theme?), a 
+        <b><a href="http://kb.mozillazine.org/Quality_Feedback_Agent">Talkback crash ID</a></b>, or special
+        information about <b>your computer's configuration</b>. Any information
+        longer than a few lines, such as a <b>stack trace</b> or <b>HTML
+        testcase</b>, should be added
+        using the "Add an Attachment" link on the bug, after
+        it is filed. If you believe that it's relevant, please also include
+        your build configuration, obtained by typing <tt>about:buildconfig</tt>
+
+        into your URL bar.
+        <br>
+        <br>
+        If you are reporting a crash, note the module in
+        which the software crashed (e.g., <tt>Application Violation in
+        gkhtml.dll</tt>).
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+
+    <td align="right" valign="middle">
+      <b>Security</b>
+    </td>
+    <td valign="top">
+      <p>   
+        <input name="bit-2" id="bit-2" value="1" type="checkbox">
+        <label for="bit-2">
+        Many users could be harmed by this security problem: it should be kept
+        hidden from the public until it is resolved.</label>
+
+      </p>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFCC">
+    <td align="right" valign="top">
+      <b>Severity</b>
+    </td>
+    <td valign="top">
+
+      <select name="bug_severity">
+        <option name="critical" value="critical">
+          Critical: The software crashes, hangs, or causes you to
+          lose data.
+        </option>
+        <option name="major" value="major">
+          Major: A major feature is broken.
+        </option>
+        <option name="normal" value="normal" selected="selected">
+          Normal: It's a bug that should be fixed.
+        </option>
+
+        <option name="minor" value="minor">
+          Minor: Minor loss of function, and there's an easy workaround.
+        </option>
+        <option name="trivial" value="trivial">
+          Trivial: A cosmetic problem, such as a misspelled word or
+          misaligned text.
+        </option>
+        <option name="enhancement" value="enhancement">
+          Enhancement: Request for new feature or enhancement.
+        </option>
+      </select>
+
+      <p>
+        Say how serious the problem is, or if your bug is a 
+        request for a new feature.
+      </p>
+    </td>
+  </tr>
+
+</tbody></table>
+
+
+<a name="step3"></a>
+<h3>Step 3 of 3 - submit the bug report</h3>
+
+<p>
+  <input id="report" value="    Submit Bug Report    " onclick="if (this.form.comment.value == '')
+   { alert('Please enter some details about this bug.');
+     this.form.comment.focus();
+     return false; } return true;" type="submit">
+</p>
+
+<p>
+  That's it! Thanks very much. You'll be notified by email about any
+  progress that is made on fixing your bug. 
+
+</p><p>  
+  Please be warned
+  that we get a lot of bug reports filed - it may take quite a 
+  while to get around to yours. You can help the process by making sure your 
+  bug is
+  complete and easy to understand, and by quickly replying to any questions
+  which may arrive by email.
+</p>
+
+    </form>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+	<!--[if lt IE 8 ]>
+	<iframe frameborder="0" width="0" height="0" src="/store.iframe.html"></iframe>
+	<![endif]-->
+	<!--[if (gte IE 8)|!(IE)]><!--> 
+	<script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+	<script src="store.js"></script>
+	<!--<![endif]-->
+	<script src="store.space.js"></script>
+	<script src="jquery.persival.js"></script>
+	<script>
+		$(function() {
+			$('form').persival();
+		});
+	</script>
+</body>
+</html>
