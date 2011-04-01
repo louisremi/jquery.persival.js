@@ -1,8 +1,8 @@
 Persival
 ========
 
-Persival can persists the values of form elements. 
-It prevents loss of data when the page is closed accidentaly or when the browser crashes.
+Persival can persist the values users entered in a form, 
+to make them crash and *inadvertent tab closing* resilent.
 
 Usage
 -----
