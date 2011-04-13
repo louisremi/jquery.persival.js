@@ -1,8 +1,8 @@
 Persival
 ========
 
-Persival can persist the values users entered in a form, 
-to make them *inadvertent tab closing* & crash resilient.
+Persival can persist the values users entered in forms,
+to make them resilient to *inadvertent tab closing* and crashes.
 
 Usage
 -----

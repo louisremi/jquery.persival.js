@@ -1,11 +1,11 @@
-/* Persival can persist the values users entered in a form,
- * to make them "inadvertent tab closing" & crash resilient.
+/* Persival can persist the values users entered in forms,
+ * to make them resilient to "inadvertent tab closing" and crashes.
  * 
  * Dependencies:
  * - jquery: http://github.com/jquery/jquery
- * - store.js: http://github.com/lrbabe/store.js
- * - store.space.js: http://github.com/lrbabe/store.space.js
- * Complete instructions and latest version available on Github: http://github.com/lrbabe/jquery.persival.js
+ * - store.js: http://github.com/louisremi/store.js
+ * - store.space.js: http://github.com/louisremi/store.space.js
+ * Complete instructions and latest version available on Github: http://github.com/louisremi/jquery.persival.js
  * 
  * author: @louis_remi
  * license: MIT
